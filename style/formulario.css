@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(./img/formulario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    /* background-attachment: fixed; */
+    position: relative;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+ background-image: url(https://www.muycanal.com/wp-content/uploads/2018/07/smartphone-1.jpg);
+    padding: 3%;
+    font-size: 100px;
+}
+
+nav{
+    margin: 35px 0 0 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 60px 0 0;
+    font-size: 50px;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+form{
+    background-color: rgba(3, 3, 3, 0.757);
+    margin: auto;
+    width: 500px;
+    border-radius: 18px;
+    padding: 20px;
+    color: rgb(26, 255, 68);
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    margin: 45px 0 0 0;
+}
+
+input{
+    padding: 7px 50px 10px 10px;
+    border-radius: 10px;
+}
+
+.boton{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgb(9, 26, 255);
+    color: white;
+}

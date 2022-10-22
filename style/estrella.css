@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@700 & display=swap');
+body{
+    background-color: blueviolet;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+
+li{
+    float: right;
+}
+.menu li a {
+    display: block;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: chocolate;
+}
+
+.galeria{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.galeria:hover{
+    border: 1px solid #777;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.texto{
+    padding: 15px;
+    text-align: center;
+}
+
+section{
+    clear: both;
+}
+
+ol li{
+list-style-image: url("https://png.pngtree.com/png-clipart/20190515/original/pngtree-coffee-time-png-image_3626459.jpg");
+list-style-position: inside;
+width: 10px;
+}

@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+video{
+    width: 100%;
+    /* atributo (min height) para altura minima del video */
+    min-height: 500px;
+    background-color: rgb(19, 18, 21);
+    position: relative;
+    }

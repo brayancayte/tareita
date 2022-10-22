@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    /* background-color: rgb(255, 140, 0); */
+    background-image: url("https://i.pinimg.com/originals/3b/db/c0/3bdbc0d650e4b27e3925f6781abfc3a1.gif");
+    background-repeat:no-repeat; /*srive para que no se repita*/
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment:fixed;
+    background-size: 100%;
+    
+ 
+}
+
+.cafesito{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://img.freepik.com/vector-premium/fondo-espacial-estrellas-manchas-luz_147066-273.jpg?w=2000");
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+.paleta{
+    display: flex;
+    align-items: center;
+}
+
+.limon{
+    height: 120px;
+    margin-right: 120px;
+    font-size: 100%;
+    
+    
+
+}
+
+.pansito{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: rgb(0, 255, 242);
+    background-image:url("https://www.semana.com/resizer/m2mOrMEHpZSnuV3-Ck_cYGGkjTE=/1200x646/filters:format(jpg):quality(50)/cloudfront-us-east-1.images.arcpublishing.com/semana/ZYCBBET2KFGI3GQERGAFAJJOIY.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+
+}
+
+ul{
+    list-style-type:none;
+    overflow: hidden;
+    background-color:rgb(0, 0, 0);
+}
+
+li{
+    float: right;
+    
+}
+
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+/* atributo (hover) para resaltar palabra al poner el cursor arriba */
+li a:hover{
+    background-color: rgb(32, 255, 155);
+
+}
+
+
+main{
+    color: aliceblue;
+}
+
+.botella
+
+
+p{
+    text-align: justify;
+    text-decoration:none; /*solo para lineas*/
+    letter-spacing: 0.5px; /*separo las letras*/
+    word-spacing: 0.5px; /*separa las palabras*/
+    text-transform:lowercase; /* para convertir el texto en mayuscula o minuscula*/
+    line-height: 1.5rem; /*separacion de la altura de cada letra*/
+    font-size: 15px;
+}
+img{
+    border-radius: 8%;
+    border: 2px solid rgb(66, 255, 138);
+}
+
+footer{
+
+    background-color: rgb(14, 143, 255);
+    width: 100%;
+    height: 100%;
+    text-transform:lowercase;
+}
+
+
+
+.parrafofooter{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 255, 17);
+}
+
+h3{
+    color: crimson;
+    font-weight:bold;
+    
+}
+
+
+
+
+
